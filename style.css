@@ -1,0 +1,290 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(0deg, rgba(15,34,37,0.3) 0%, rgba(15,34,37,0.3) 100%), url(media/water.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    justify-content:space-between;
+    align-items: center;
+}
+#instagram{
+    width: 5%;
+}
+.contenedor-header{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 150px;
+    justify-content:space-between;
+    align-items: center;
+}
+.primerNav{
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.segundoNav{
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+#logo{
+    background-image: url(media/LOGO.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+}
+#titulo{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 130px;
+    align-items: center;
+    padding-left: 20px;
+}
+#titulo h2{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    color: white;
+    letter-spacing: 4px;
+    margin: 0;
+    padding: 0;
+}
+#titulo h4{
+    font-size: 13px;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    color: white;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+}
+.items-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 10%;
+}
+.idiomas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 590px;
+}
+
+#texto{
+    text-align: center;
+    width: 500px;
+    height: 220px;
+    padding: 30px;
+    padding-right: 50px;
+}
+#texto h1{
+    font-size: 53px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+#texto p{
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1400px;
+    height: 350px;
+}
+.caja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+    border-radius: 5px;
+}
+.caja h2{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: white;
+}
+.caja h1{
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.caja p{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-align: center;
+    text-decoration:underline;
+}
+#caja-amanecer{
+    background-image:linear-gradient(0deg, rgba(15,34,37,0.3) 0%, rgba(15,34,37,0.3) 100%), url(media/sunrise-at-the-sea-free-photo.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#amanecer{
+    background-image: url(media/istockphoto-1316534728-640x640.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    margin-top: 40px;
+}
+#caja-dia{
+    background-image:linear-gradient(0deg, rgba(15,34,37,0.3) 0%, rgba(15,34,37,0.3) 100%), url(media/vista-aerea-de-mar-com-aguas-verdes-cristalinas_259266-115.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#dia{
+    background-image: url(media/Captura\ de\ pantalla\ 2023-11-29\ 222449.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    margin-top: 40px;
+}
+#caja-atardecer{
+    background-image:linear-gradient(0deg, rgba(15,34,37,0.3) 0%, rgba(15,34,37,0.3) 100%), url(media/depositphotos_65702573-stock-photo-red-sunset-at-the-beach.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#atardecer{
+    background-image: url(media/Captura\ de\ pantalla\ 2023-11-29\ 222907.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    margin-top: 40px;
+}
+
+
+@media screen and (max-width: 450px){
+    
+    body{
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    header{
+        display: flex;
+        height: 220px;
+        width: 375px;
+        align-items: baseline;
+        margin-top: 10px;
+    }
+    #instagram{
+        width: 40px;
+    }
+    .contenedor-header{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    #titulo{
+        display: flex;
+        height: 110px;
+        order: -1;
+    }
+    .primerNav{
+        display: flex;
+        width: 400px;
+        height: 40px;
+        align-items: center;
+        margin-top: 10px;
+        padding-left: 8px;
+    }
+    .segundoNav{
+        display: flex;
+        width: 400px;
+        height: 40px;
+        align-items: center;
+    }
+    .items-right{
+        width: 50px;
+    }
+
+    section{
+        width: 380px;
+        height: 1500px;
+    }
+    #texto{
+        width: 300px;
+        height: 500px;
+        padding: 10px;
+        margin-top: 50px;
+        
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 1300px;
+    }
+}
